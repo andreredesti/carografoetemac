@@ -70,6 +70,10 @@ main {
     margin: 20px;
 }
 
+h1 {
+    margin: 40px;
+}
+
 h2 > span {
     background: var(--corDestaque);
     border-radius: 0.6rem;
