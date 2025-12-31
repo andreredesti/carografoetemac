@@ -1,0 +1,128 @@
+:root {
+    --corPrimaria: #f1eaea;
+    --corSecundaria: #aef0ac;
+    --corTexto1: #fff;
+    --corTexto2: #000;
+    --corDestaque: rgb(133, 224, 168);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: var(--corTexto2)
+}
+
+body {
+    background: var(--corPrimaria);
+    height: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background: var(--corSecundaria);
+    width: 100%;
+    height: 80px;
+    align-items: end;
+    justify-content: center;
+}
+
+header nav {}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+
+}
+
+header nav ul li {
+    text-transform: uppercase;
+    width: 12em;
+    height: 2rem;
+    padding: 0 20px;
+    align-content: center;
+    color: var(--corTexto2);
+    text-align: center;
+    font-weight: 600;
+    margin-right: 10px;
+    border: 1px solid var(--corTexto2);
+    border-radius: 0.5rem;
+}
+
+header nav ul li:hover {
+    border-radius: 0.6rem;
+    transition: ease-in-out 2s;
+    border: none;
+    font-weight: bolder;
+    background: var(--corDestaque);
+    color: var(--corTexto2)
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+h2 > span {
+    background: var(--corDestaque);
+    border-radius: 0.6rem;
+    padding: 0 20px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70rem;
+    height: 25rem;
+    align-items: center;
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+section div {
+    display: inline;
+
+}
+
+.imagens {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+    height: 22rem;
+    border: 3px solid rgb(166, 196, 152);
+    border-radius: 10px;
+     background: var(--corSecundaria)
+}
+
+.img {
+    width: 12.5rem;
+    height: 250px;
+    margin: 10px auto;   
+    
+}
+
+img{
+     border-radius: 0.5rem;
+     width: 12rem;
+     height: 16rem;
+    
+}
+.dadosDoAluno {
+    margin: 30px auto;
+}
+
+footer {
+    
+    background: var(--corSecundaria);
+    height: 80px;
+}
