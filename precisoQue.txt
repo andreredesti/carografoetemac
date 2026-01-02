@@ -1,0 +1,4 @@
+A leitura dos dados pule para a próxima linha
+
+Para o projeto, preciso
+pegar o nome do aluno e o número na chamada
