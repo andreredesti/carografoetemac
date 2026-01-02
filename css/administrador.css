@@ -1,0 +1,76 @@
+
+
+h1, h2 {
+    text-align: center;
+}   
+h1{   
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+form, fieldset{
+    border: 1px solid black;
+}
+
+form {
+   width: 800px;
+   height: 500px;
+   margin: 0 auto;
+    background: var(--corDestaque);
+    display: flex;
+}
+
+fieldset {
+    margin: 20px;
+    width: 100%;
+    height: 90%;
+}
+
+
+legend {
+ background: rgb(138, 168, 138);
+   padding: 2px 5px;
+    margin: 0 20px;
+    border-radius: 8px;
+}
+
+fieldset, label {
+    font-weight: 600;
+}
+.nomeMatricula{
+    display: flex;
+    justify-content: start;
+}
+
+.nomeMatricula > .nomeDoAluno{
+      
+}
+input {
+    padding: 0 0 0 10px ;
+}
+
+input[type="text"]{
+     width: 300px;
+     
+    
+}
+
+.nomeDoAluno, .cadastrador {
+     
+}
+fieldset > div{
+   
+}
+label {    
+    margin: 0 0 0 10px ;
+}
+
+input {
+
+}
